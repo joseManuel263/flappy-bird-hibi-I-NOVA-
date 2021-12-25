@@ -124,7 +124,7 @@ class Game {
         player.update();
       };
 
-      if(player.distance > 100){
+      if(player.distance > 1500){
         gameState1 = 2;
         player.rank += 1;
         Player.updateBirdsAtEnd(player.rank);
